@@ -1,0 +1,21 @@
+transactionId,amount,referenceNumber,date,description
+TXN00001,1250.50,REF00001,2024-01-01,Exact match - same ID and amount
+TXN00002,3400.00,REF00002,2024-01-02,Exact match - same ID and amount
+TXN00003,780.25,REF00003,2024-01-03,Exact match - same ID and amount
+TXN00004,5600.00,REF00004,2024-01-04,Exact match - same ID and amount
+TXN00005,920.75,REF00005,2024-01-05,Exact match - same ID and amount
+TXN00006,2150.00,REF00006,2024-01-06,Exact match - same ID and amount
+TXN00007,445.30,REF00007,2024-01-07,Exact match - same ID and amount
+TXN00008,8900.00,REF00008,2024-01-08,Exact match - same ID and amount
+TXN00009,1100.00,REF00009,2024-01-09,Exact match - same ID and amount
+TXN00010,3250.50,REF00010,2024-01-10,Exact match - same ID and amount
+TXN99901,668.50,REF00011,2024-02-01,Partial match - REF matches but TxnID differs and amount within 2%
+TXN99902,4510.00,REF00012,2024-02-02,Partial match - REF matches but TxnID differs and amount within 1%
+TXN99903,1885.00,REF00013,2024-02-03,Partial match - REF matches but TxnID differs and amount within 1%
+TXN00003,780.25,REF00003,2024-01-03,Duplicate - same TXN00003 appears twice
+TXN00005,920.75,REF00005,2024-01-05,Duplicate - same TXN00005 appears twice
+TXN88801,9999.99,REF88801,2024-03-01,Unmatched - no system record exists
+TXN88802,5555.55,REF88802,2024-03-15,Unmatched - no system record exists
+TXN88803,1234.56,REF88803,2024-04-01,Unmatched - no system record exists
+TXN88804,7777.77,REF88804,2024-04-20,Unmatched - no system record exists
+TXN88805,3333.33,REF88805,2024-05-10,Unmatched - no system record exists

@@ -1,0 +1,41 @@
+Transaction_ID,Total_Amount,Ref_No,Transaction_Date,Notes
+TXN00001,1250.50,REF00001,2024-01-01,Invoice payment January
+TXN00002,3400.00,REF00002,2024-01-02,Vendor settlement
+TXN00003,780.25,REF00003,2024-01-03,Service fee Q1
+TXN00004,5600.00,REF00004,2024-01-04,Bulk purchase order
+TXN00005,920.75,REF00005,2024-01-05,Monthly subscription renewal
+TXN00006,2150.00,REF00006,2024-01-06,Consulting retainer
+TXN00007,445.30,REF00007,2024-01-07,Office supply restock
+TXN00008,8900.00,REF00008,2024-01-08,Server equipment
+TXN00009,1100.00,REF00009,2024-01-09,Annual license
+TXN00010,3250.50,REF00010,2024-01-10,Ad campaign spend
+TXN00011,670.00,REF00011,2024-01-11,Travel booking
+TXN00012,4500.00,REF00012,2024-01-12,Client milestone payout
+TXN00013,1890.25,REF00013,2024-01-13,Facility maintenance
+TXN00014,7200.00,REF00014,2024-01-14,Project delivery payment
+TXN00015,550.00,REF00015,2024-01-15,Electricity bill
+TXN00016,1325.00,REF00016,2024-02-01,Insurance premium
+TXN00017,2980.75,REF00017,2024-02-02,Raw materials
+TXN00018,4120.00,REF00018,2024-02-03,Freight charges
+TXN00019,6300.50,REF00019,2024-02-04,Warehouse lease
+TXN00020,815.25,REF00020,2024-02-05,Cleaning service
+TXN99801,1255.00,REF00021,2024-03-01,Partial - REF matches and amount within 2% of 1250.50
+TXN99802,3430.00,REF00022,2024-03-02,Partial - REF matches and amount within 1% of 3400.00
+TXN99803,780.00,REF00023,2024-03-03,Partial - REF matches and amount within 1% of 780.25
+TXN99804,5610.00,REF00024,2024-03-04,Partial - REF matches and amount within 1% of 5600.00
+TXN99805,922.00,REF00025,2024-03-05,Partial - REF matches and amount within 1% of 920.75
+TXN99806,2148.00,REF00026,2024-03-06,Partial - REF matches and amount within 1% of 2150.00
+TXN99807,446.00,REF00027,2024-03-07,Partial - REF matches and amount within 1% of 445.30
+TXN00001,1250.50,REF00001,2024-01-01,Duplicate entry of TXN00001
+TXN00005,920.75,REF00005,2024-01-05,Duplicate entry of TXN00005
+TXN00010,3250.50,REF00010,2024-01-10,Duplicate entry of TXN00010
+TXN00014,7200.00,REF00014,2024-01-14,Duplicate entry of TXN00014
+TXN00003,780.25,REF00003,2024-01-03,Duplicate entry of TXN00003
+TXN77701,15000.00,REF77701,2024-04-01,Unmatched - unknown transaction
+TXN77702,8250.99,REF77702,2024-04-05,Unmatched - foreign vendor
+TXN77703,3100.45,REF77703,2024-04-10,Unmatched - manual entry error
+TXN77704,6789.12,REF77704,2024-04-15,Unmatched - legacy system
+TXN77705,2450.00,REF77705,2024-04-20,Unmatched - pending approval
+TXN77706,990.50,REF77706,2024-05-01,Unmatched - cancelled order
+TXN77707,4321.00,REF77707,2024-05-10,Unmatched - wrong department
+TXN77708,1875.30,REF77708,2024-05-15,Unmatched - disputed charge

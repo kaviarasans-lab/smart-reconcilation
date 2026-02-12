@@ -1,0 +1,15 @@
+{
+  "name": "smart-recon",
+  "version": "1.0.0",
+  "description": "Smart Reconciliation & Audit System",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "server:dev": "cd server && npx nodemon server.js",
+    "client": "cd client && npm run dev",
+    "dev": "npx concurrently \"npm run server:dev\" \"npm run client\"",
+    "seed": "cd server && node seed.js",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

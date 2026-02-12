@@ -1,0 +1,42 @@
+TxnCode,PaymentAmount,RefCode,PayDate,Memo,Department,Currency
+TXN00001,1250.50,REF00001,01/01/2024,January payment,Finance,USD
+TXN00002,3400.00,REF00002,01/02/2024,Vendor payment,Procurement,USD
+TXN00003,780.25,REF00003,01/03/2024,Service charge,Operations,USD
+TXN00004,5600.00,REF00004,01/04/2024,Product order,Procurement,USD
+TXN00005,920.75,REF00005,01/05/2024,Subscription fee,IT,USD
+TXN00021,1250.50,REF00021,02/01/2024,Repeat cycle payment,Finance,USD
+TXN00022,3400.00,REF00022,02/02/2024,Monthly vendor,Procurement,USD
+TXN00023,780.25,REF00023,02/03/2024,Maintenance service,Operations,USD
+TXN00024,5600.00,REF00024,02/04/2024,Quarterly order,Procurement,USD
+TXN00025,920.75,REF00025,02/05/2024,Subscription renewal,IT,USD
+TXN00041,1250.50,REF00041,03/01/2024,Q1 closing payment,Finance,USD
+TXN00042,3400.00,REF00042,03/02/2024,Supplier settlement,Procurement,USD
+TXN00043,780.25,REF00043,03/03/2024,Facility maintenance,Operations,EUR
+TXN00044,5600.00,REF00044,03/04/2024,Hardware purchase,IT,USD
+TXN00045,920.75,REF00045,03/05/2024,Cloud hosting,IT,USD
+TXN66601,670.50,REF00046,04/01/2024,Partial - REF matches amt ~1% off from 670.00,Finance,USD
+TXN66602,4480.00,REF00047,04/02/2024,Partial - REF matches amt ~0.4% off from 4500.00,Sales,USD
+TXN66603,1893.00,REF00048,04/03/2024,Partial - REF matches amt ~0.1% off from 1890.25,Operations,USD
+TXN66604,7180.00,REF00049,04/04/2024,Partial - REF matches amt ~0.3% off from 7200.00,Finance,USD
+TXN66605,548.00,REF00050,04/05/2024,Partial - REF matches amt ~0.4% off from 550.00,Admin,USD
+TXN66606,1330.00,REF00051,04/06/2024,Partial - REF matches amt ~0.4% off from 1325.00,HR,USD
+TXN66607,2975.00,REF00052,04/07/2024,Partial - REF matches amt ~0.2% off from 2980.75,Procurement,USD
+TXN66608,4100.00,REF00053,04/08/2024,Partial - REF matches amt ~0.5% off from 4120.00,Operations,USD
+TXN00001,1250.50,REF00001,01/01/2024,Duplicate - TXN00001 3rd occurrence,Finance,USD
+TXN00002,3400.00,REF00002,01/02/2024,Duplicate - TXN00002 3rd occurrence,Procurement,USD
+TXN00003,780.25,REF00003,01/03/2024,Duplicate - TXN00003 3rd occurrence,Operations,USD
+TXN00004,5600.00,REF00004,01/04/2024,Duplicate - TXN00004 3rd occurrence,Procurement,USD
+TXN00021,1250.50,REF00021,02/01/2024,Duplicate - TXN00021 3rd occurrence,Finance,USD
+TXN00041,1250.50,REF00041,03/01/2024,Duplicate - TXN00041 3rd occurrence,Finance,USD
+TXN55501,25000.00,REF55501,05/01/2024,Unmatched - large wire transfer,Treasury,USD
+TXN55502,12750.00,REF55502,05/10/2024,Unmatched - international payment,Procurement,EUR
+TXN55503,8430.00,REF55503,05/15/2024,Unmatched - capital expenditure,Finance,USD
+TXN55504,3960.25,REF55504,06/01/2024,Unmatched - refund claim,Sales,USD
+TXN55505,1780.00,REF55505,06/10/2024,Unmatched - sponsorship,Marketing,USD
+TXN55506,6290.50,REF55506,06/15/2024,Unmatched - training expense,HR,USD
+TXN55507,495.00,REF55507,07/01/2024,Unmatched - petty cash,Admin,USD
+TXN55508,11200.00,REF55508,07/10/2024,Unmatched - audit fee,Finance,USD
+TXN55509,2340.75,REF55509,07/15/2024,Unmatched - legal consultation,Legal,USD
+TXN55510,7890.00,REF55510,08/01/2024,Unmatched - conference travel,HR,USD
+TXN55511,560.00,REF55511,08/10/2024,Unmatched - courier charges,Operations,USD
+TXN55512,4100.99,REF55512,08/15/2024,Unmatched - software renewal,IT,USD
